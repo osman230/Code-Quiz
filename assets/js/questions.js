@@ -1,57 +1,57 @@
 let questions = [
     {
-    numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    number: 1,
+    question: "What does 'DOM' stand for?",
+    answer: "Document Object Model",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Document Object Model",
+      "Deviation On Model",
+      "Document On Local",
+      "Deviation On Module"
     ]
   },
     {
-    numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    number: 2,
+    question: "How do you define variables in Javascript?",
+    answer: "var, let, or const",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "let, const, or for",
+      "for, var, or let",
+      "var, let, or const",
+      "assign, var, or let"
     ]
   },
     {
-    numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    number: 3,
+    question: "How do you set up a recursive function?",
+    answer: "function( ){...}",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "const function( ){...}",
+      "var function( ){...}",
+      "let function( ){...}",
+      "function( ){...}"
     ]
   },
     {
-    numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    number: 4,
+    question: "What does Javascript do?",
+    answer: "Make webpages interactive.",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Describing the structure of Web Pages.",
+      "Make webpages interactive.",
+      "Adding colors, layouts, and fonts.",
+      "Converting Languages."
     ]
   },
     {
-    numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    number: 5,
+    question: "What do you use to make a dialog box pop up?",
+    answer: "alert( )",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "display( )",
+      "window( )",
+      "alert( )",
+      "pop_up( )"
     ]
   },
 

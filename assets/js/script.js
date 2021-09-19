@@ -12,7 +12,7 @@ const result_box = document.querySelector(".result_box");
 
 let timeValue =  15;
 let que_count = 0;
-let que_numb = 1;
+let que_number = 1;
 let userScore = 0;
 let counter;
 let counterLine;
@@ -31,9 +31,9 @@ start_btn.onclick = ()=>{
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){ 
         que_count++;
-        que_numb++; 
+        que_number++; 
         showQuestions(que_count); 
-        queCounter(que_numb); 
+        queCounter(que_number); 
         clearInterval(counter); 
         clearInterval(counterLine); 
         startTimer(timeValue); 
@@ -52,7 +52,7 @@ next_btn.onclick = ()=>{
 function showQuestions(index){
     const que_text = document.querySelector(".que_text");
     
-    let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
+    let que_tag = '<span>'+ questions[index].number + ". " + questions[index].question +'</span>';
     let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
     + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
     + '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
